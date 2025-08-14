@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo
+{
+    color: rgb(102, 88, 88);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 1%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    background: rgb(241, 241, 241);
+}
+
+.nav
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav ul
+{
+    display: flex;
+    margin-left: auto;
+}
+
+.nav ul li
+{
+    list-style: none;
+    margin-left: 35px;
+    
+}
+
+nav ul li a
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(102, 88, 88);
+}
+ 
+.nav ul li:hover a 
+{
+    color: darkred;
+}
+
+.home 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 80px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.home_img
+{
+    width: 600px;
+    height: 600px;
+    background-image: url('home_image.jpg');
+    background-size: cover;       
+    background-position: center;         
+    padding: 300px; 
+    margin-left: 0px;
+    margin-top: 80px;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse
+{
+    0% 
+    {
+        transform: scale(1);
+    }
+
+    50%
+    {
+        transform: scale(1.002);
+    }
+
+    100%
+    {
+        transform: scale(1);
+    }
+}
+
+.home_page
+{
+    margin-top: 200px;
+}
+
+/* inspo https://www.google.com/search?sca_esv=adde10145c0e0ebd&rlz=1C1RXQR_enUS1141US1141&sxsrf=AE3TifMlt9fsKSTPouH7pRw0zGl19RwNHQ:1754579538588&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhZVmrJB8DQUK5IzxA2fZbQFrCfZ7DsBw9Vv9Qkv56j2ABF6GkElgaAKyV1xfCXdD_Z15iUVM79T-3xuh1Mj0Peon1PsRAzBxUHExQsK-PeRBwEUDFNzv6TVMSc_t6Cu-NsjQEv7GPCiyb7Qk1pVovxa3C3L_w&q=portfolio+website&sa=X&sqi=2&ved=2ahUKEwjDy4KR_viOAxWeBDQIHUexD6UQtKgLegQIEhAB&biw=1866&bih=1025&dpr=0.9#vhid=t-U79--2BlFk9M&vssid=mosaic */
+/* https://www.derek-lieu.com/ */
